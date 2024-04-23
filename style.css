@@ -7,6 +7,7 @@
     margin: 0px;
     padding: 0px;
     font-size: 1em;
+    line-height: 2em;
 
 }
 :root{
@@ -19,23 +20,25 @@ header{
     background-color: black;
     color: white;
     text-align: center;
-    height:200px;
 }
 header > h1{
     color: white;
     padding-bottom: 1%;
-    padding-top: 60px;
+    padding-top: 50px;
     font-family:var(--font1);
     font-size: 4em;
     
 }
 header > p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding-bottom: 50px;
     
 }
 a{
     text-decoration: none;
     color: white;
+    font-weight: bolder;
 }
 a:hover{
     text-decoration: underline;
@@ -44,11 +47,18 @@ a:hover{
 section{
     font-family: var(--font2);
     padding-left: 35px;
-    padding-top: 70px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     font-size: 22px;
     font-weight: lighter;
     text-decoration-color: aqua;
 
+}
+section.imagens > p{
+    background-color: rgba(0, 0, 0, 0.24);
+    width: 350px;
+    color: white;
+    border-radius: 20px 25px 0px;
 }
 #img1{
     background-image: url(imagens/backgraund01.jpg);
@@ -64,19 +74,6 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer{
     text-align: center;
