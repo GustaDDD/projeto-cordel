@@ -77,7 +77,7 @@ section.imagens > p{
 
 #img2{
     background-image: url(imagens/backgraund02.jpg);
-    background-position: center center;
+    background-position: right top;
     background-repeat: no-repeat;
     background-size: cover;
 }
