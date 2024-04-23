@@ -54,11 +54,18 @@ section{
     text-decoration-color: aqua;
 
 }
+section.imagens{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.521);
+    background-attachment: fixed;
+
+}
+
 section.imagens > p{
     background-color: rgba(0, 0, 0, 0.24);
     width: 350px;
     color: white;
     border-radius: 20px 25px 0px;
+    text-shadow: 1px 1px 0px black;
 }
 #img1{
     background-image: url(imagens/backgraund01.jpg);
